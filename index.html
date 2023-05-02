@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+    content="Изучайте HTML5, CSS3 и SEO в простой, практичной и объективной форме, шаг за шагом создавая современный и отзывчивый одностраничный сайт">
+    <link rel="icon" href="img/favicon2.png">
+    <title>Школа верстки</title>
+
+</head>
+<body>
+    <header id="main">
+        <div class="container flex">
+            <div id="logo">
+                <img src="img/logo3.png" alt="frontend">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#main"> Главная</a></li>
+                    <li><a href="#about">О сайте</a></li>
+                    <li><a href="#content">Содержание</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>HTML 5 и CSS 3</h1>
+            <h2>Вы смотрите. Вы делаете. Вы учитесь.</h2>
+            <a href="to__call/index.html" target="_blank" class="btn">Связаться</a>
+        </div>
+    </main>
+    <section id="about">
+        <div class="container flex2">
+            <div id="destaqueabout">
+                <img src="img/html5css3.jpg" alt="html5css3">
+            </div>
+            <div id="textoabout">
+                <h2>Обучение на практике</h2>
+                <p>Изучайте HTML5, CSS3 и SEO простым, практичным и объективным способом, разрабатывая шаг за шагом с нуля до размещения современного и отзывчивого одностраничного сайта</p>
+                <div class="smallAbout flex2">
+                    <img src="img/html5.png" alt="html5">
+                    <p>HTML 5</p>
+                </div>
+                <div class="smallAbout flex2">
+                    <img src="img/css3.png" alt="css3">
+                    <p>CSS 3</p>
+                </div>
+                <div class="smallAbout flex2">
+                    <img src="img/seo.png" alt="seo">
+                    <p>SEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="onepage">
+        <div class="container flex3">
+            <div>
+                <h2>Одностраничный сайт</h2>
+                <p>Идеально подходит для малого и среднего бизнеса Одностраничный сайт - это сайт, на одной странице которого вы размещаете всю необходимую посетителю информацию в объективной и креативной форме.</p>
+            </div>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CkmODgrV43k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="wireframe">
+        <div class="container flex2">
+            <div id="textoWire">
+                <h2>Каркас веб-сайта</h2>
+                <p>Wireframe - это визуальное представление основной структуры страницы. Его следует сделать как можно проще, показав только самое необходимое, в виде своеобразного черновика, без цветов и изображений. Нажмите на кнопку <span>или отсканируйте QR-код </span>чтобы получить каркас этой страницы.</p>
+                <a href="wireframe.pdf" target="_blank" class="btn">PDF</a>
+            </div>
+            <div id="qrcode">
+                <img src="img/qrcode.png" alt="qrcode">
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container">
+            <h2>Краткое содержание</h2>
+            <div class="Cards flex4">
+                <div class="Card">
+                    <img src="img/estruturahtml.png" alt="Estrutura html5">
+                    <h3>HTML 5</h3>
+                    <p>Html используется для отображения содержимого в WEB, а структура документа делится на части, как показано на этой карте</p>
+                    <a href="https://youtu.be/01QJmn0vDxs" target="_blank" class="content__btn">Посмотреть</a>
+                </div>
+                <div class="Card">
+                    <img src="img/boxmodel.png" alt="Box model CSS">
+                    <h3>BOX МОДЕЛЬ CSS</h3>
+                    <p>Модель коробки связывает свойства, описанные в этой карте, чтобы составить размерность элемента.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=1jvIi039-i4" target="_blank" class="content__btn">Посмотреть</a>
+                </div>
+                <div class="Card">
+                    <img src="img/breakpoints.png" alt="breakpoints">
+                    <h3>BREAKPOINTS</h3>
+                    <p>Всегда начиная со смартфона в портретном режиме, мы используем значения, описанные на этой карте, в качестве эталона.</p>
+                    <a href="https://youtu.be/BO-VzBNyEOs" target="_blank" class="content__btn">Посмотреть</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <address>
+        <div class="container flex6">
+            <div id="contacts">
+                <a href="#" target="_blank">
+                    <img src="img/whatsapp.png" alt="whatsapp">
+                    <p>(222) 48-24-56</p>
+                </a>
+                <img src="img/fone.png" alt="fone">
+                <p>(222) 48-56-78</p>
+            </div>
+            <div>
+                <a href="https://goo.gl/maps/mLpzArWKPpWZDgaD7"><img src="img/mapa.png" alt="Mapa" id="iconeMapa"></a>
+                <img src="img/local.png" alt="local" id="iconeLocal">
+                <p>пр-т Мира, 24</p>
+                <p>ГУ ВПО "БРУ"</p>
+                <p>Могилев - Беларусь</p>
+                <a href="mailto:seuemail@email.com?subject=HTML5CSS3">
+                    <img src="img/email.png" alt="email">
+                    <p>bru@email.com</p>
+                </a>
+                <p id="dados">&#128064; Все имена и телефоны вымышленные</p>
+                <a href="to__call/index.html" target="_blank" class="btn">Связаться</a>
+            </div>
+            <div id="googleMaps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.3343421052346!2d30.341400854481215!3d53.908034437424455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d051e21c08086b%3A0x342bdbdd2dc821f8!2z0JHQtdC70L7RgNGD0YHRgdC60L4t0KDQvtGB0YHQuNC50YHQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2sby!4v1672261633590!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </address>
+    <footer>
+        <div class="container flex5">
+            <div>
+                <p>&#169;2022 - Столяров Максим</p>
+            </div>
+        </div>
+    </footer>
+    <a href="#main" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+</body>
+</html>
